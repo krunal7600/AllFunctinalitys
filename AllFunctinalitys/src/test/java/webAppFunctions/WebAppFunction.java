@@ -92,24 +92,24 @@ public class WebAppFunction extends BaseClass {
 
     }
 
-    public void listOfdata(){
-
-        TableObjects tableObjects = new TableObjects(driver);
-
-        System.out.println("Number Of Column Get::"+tableObjects.listData.size());
-
-        //CALCULATE ALL AMOUNT OF PARTICULAR COLUMN OF AMOUNT AND TOTAL ALL VALUES
-        int tempData = 0;
-        for (WebElement col : tableObjects.listData)
-        {
-            String sumData = col.getText();
-            int i = Integer.parseInt(sumData);
-            tempData = tempData + i;
-            System.out.println(col.getText());
-        }
-
-        System.out.println(tempData);
-
-    }
+//    public void listOfdata(){
+//
+//        TableObjects tableObjects = new TableObjects(driver);
+//
+//        System.out.println("Number Of Column Get::"+tableObjects.listData.size());
+//
+//        //CALCULATE ALL AMOUNT OF PARTICULAR COLUMN OF AMOUNT AND TOTAL ALL VALUES
+//        int tempData = 0;
+//        for (WebElement col : tableObjects.listData)
+//        {
+//            String sumData = col.getText();
+//            int i = Integer.parseInt(sumData);
+//            tempData = tempData + i;
+//            System.out.println(col.getText());
+//        }
+//
+//        System.out.println(tempData);
+//
+//    }
 }
 
