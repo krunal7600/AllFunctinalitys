@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EasyR_Automation_Suites" duration-ms="18592" started-at="2022-02-25T17:30:56 IST" finished-at="2022-02-25T17:31:15 IST">
+    <groups>
+    </groups>
+    <test name="Credentials_Validation_Success" duration-ms="18592" started-at="2022-02-25T17:30:56 IST" finished-at="2022-02-25T17:31:15 IST">
+      <class name="TestCases.BasicFunctionsTestCase">
+        <test-method status="PASS" signature="generate()[pri:0, instance:TestCases.BasicFunctionsTestCase@6321e813]" name="generate" is-config="true" duration-ms="495" started-at="2022-02-25T17:30:56 IST" finished-at="2022-02-25T17:30:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate -->
+        <test-method status="PASS" signature="BaseMethod()[pri:0, instance:TestCases.BasicFunctionsTestCase@6321e813]" name="BaseMethod" is-config="true" duration-ms="15324" started-at="2022-02-25T17:30:57 IST" finished-at="2022-02-25T17:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseMethod -->
+        <test-method status="PASS" signature="basicFunctionsTestCase()[pri:0, instance:TestCases.BasicFunctionsTestCase@6321e813]" name="basicFunctionsTestCase" duration-ms="2738" started-at="2022-02-25T17:31:12 IST" finished-at="2022-02-25T17:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicFunctionsTestCase -->
+      </class> <!-- TestCases.BasicFunctionsTestCase -->
+    </test> <!-- Credentials_Validation_Success -->
+  </suite> <!-- EasyR_Automation_Suites -->
+</testng-results>

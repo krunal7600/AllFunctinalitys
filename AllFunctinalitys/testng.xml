@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EasyR_Automation_Suites">
+
+    <test name="Credentials_Validation_Success">
+        <classes>
+            <class name="TestCases.BasicFunctionsTestCase"></class>
+        </classes>
+    </test>
+
+</suite>
