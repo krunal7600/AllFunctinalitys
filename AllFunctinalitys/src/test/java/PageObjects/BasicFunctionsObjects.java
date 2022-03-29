@@ -15,6 +15,9 @@ public class BasicFunctionsObjects {
         PageFactory.initElements(webDriver,this);
     }
 
+    @FindBy(xpath = "//img[@class='logoClass']")
+    public WebElement abc;
+
     @FindBy(xpath = "//input[@value='radio3']")
     public WebElement radioButton;
 
